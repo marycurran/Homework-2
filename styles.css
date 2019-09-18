@@ -2,32 +2,39 @@
 html {
     background-color: white
     padding 10px;
+    content:900px;
 }
 
 header{
     text-align:center;
-    font-size: 30px;
+    font-size: 20px;
+    font-style:bold;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
     background-color: white;
     padding:10px;
-    margin:0;
+    margin:100px;
+    
 }
 
 h1{
+    border-top: 3px solid;
+    border-spacing: 900px;
+    border-top-color: #98da5a;
+    width: 57%;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 7px;
+    margin-bottom: 5px;
     text-align: center;
-    font-size: 30px;
-    border-top: 5px solid;
-    border-spacing: 500px;
-    border-top-color: #008500;
+    padding: 15px;
+    font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
-}    
+    font-style: italic;
 
-h1.5{
-    text-align:center;
-}
+}    
 
 
 
@@ -37,42 +44,83 @@ h2{
     font-weight: bold;
      /*content*/
      text-align: left;
+     text-decoration-line: underline;
+     margin-left:8px;
     
 }
 
-h3{
+h5{
     text-align:left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    margin-left: 80px;
+    margin-bottom:0px;
+}
+input{
+    width:228px;
+    
+    margin-left:-15px;
+}
+textarea{
+    margin-left:-15px;
 }
 
+button{
+    margin:25px;
+    block-size: 10px;
+    font-size:8px;
+} 
 
+
+p{
+    text-align:left;
+    margin-left:8px;
+}
+li{
+    text-align:left;
+    margin:15px;
+}
+
+.center{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:15px;
+    width:47%;
+    /*spacing and sizing of image*/
+}
 /*flexbox*/
 .parent {
     background-color: white;
-    margin:40px;
-    padding:50px;
-    display: flex;
+    
+    
+    padding:2px;
+    
     flex-flow: row wrap; /*flex-direction flex-wrap*/
     text-align: center;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .div1 {
     background-color: white;
-    margin: 20px;
-    width:900px;
+    
+    
+    width: 330px;
+    height:400px;
 
     /*font style*/
-    font-size: 15px;
+    font-size: 17px;
     
 
     /*border*/
     border: 5px;
     border-style: solid;
     border-color: red;
-
-   
-    
 }
 
 .div2 {
@@ -80,13 +128,16 @@ h3{
 
     /*border*/
     border: 5px;
+    border-left:0px;
     border-color: red;
     border-style: solid;
-    margin: 20px;
-    width: 900px;
+    display:inline-block;
+    
+    width: 330px;
+    height: 400px;
 
     /*font style*/
-    font-size: 20px;
+    font-size: 17px;
     font-family: Arial, Helvetica, sans-serif;
     
 
